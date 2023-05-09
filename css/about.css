@@ -1,0 +1,70 @@
+/* about */
+.intro {
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.intro .intro-grid {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-gap: 50px;
+ background: white;
+ height: auto;
+ margin-top: 30px;
+ grid-area: auto;
+}
+
+.intro-text {
+ text-align: justify;
+ margin-top: 0%;
+}
+
+.intro-text h1 {
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.intro-text p {
+ line-height: 25px;
+}
+
+/* line */
+hr {
+ margin-top: 100px;
+}
+
+/* Our values */
+.values {
+ margin-top: 100px;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-bottom: 100px;
+}
+
+.values h1,
+h2 {
+ text-align: center;
+}
+
+.values p {
+ color: #1d1d1d;
+ text-align: center;
+ font-size: 18px;
+}
+
+.image-values {
+ margin-left: 120px;
+}
+
+.values .grid-values {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 50px;
+ background: white;
+ height: 50vh;
+ margin-top: 30px;
+}
+
+.image-values img {
+ width: 150px;
+}

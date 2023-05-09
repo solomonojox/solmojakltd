@@ -1,0 +1,75 @@
+.intro-cover {
+ width: 1200px;
+ height: 500px;
+ background-image: url(/images/safety1.jpg);
+ background-position: center;
+ background-size: cover;
+ margin-bottom: 50px;
+}
+
+.intro-cover h1 {
+ text-align: center;
+ font-size: 60px;
+ margin-top: 200px;
+ color: #FFFFFF;
+ background-color: #1257DC;
+}
+.intro-text{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+.intro-text p{
+  text-align: justify;
+}
+/* line */
+hr {
+  height: 2px;
+  width: 300px;
+  margin-top: -80px;
+  background-color: black;
+}
+/* header */
+.header {
+  text-align: center;
+}
+.header p{
+  color: black;
+  font-size: 20px;
+}
+.header h1{
+  font-size: 60px;
+}
+
+/* Featured */
+.wrap2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 2px 5px 20px #1257DC;
+}
+.service{
+  display: grid;
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  grid-gap: 100px;
+}
+
+.wrap2 p {
+  font-size: 20px;
+}
+
+  /* img and text */
+img {
+  width: 400px;
+}
+.text {
+  text-align: justify;
+}

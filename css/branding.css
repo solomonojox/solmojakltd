@@ -1,0 +1,24 @@
+.cover {
+ width: 1200px;
+ height: 500px;
+ background-image: linear-gradient(rgba(0,0,0,0), #1257DC), url(/images/branding.jpg);
+ background-position: center;
+ background-size: cover;
+ background-blend-mode: multiply;
+ opacity: 100%;
+ margin-bottom: 50px;
+}
+.cover h1{
+ text-align: center;
+ font-size: 60px;
+ margin-top: 200px;
+ color: #1257DC;
+ background-color: #ffffff;
+}
+
+.cover p{
+ text-align: center;
+ font-size: 18px;
+ background-color: #ffffff;
+ color: rgb(0, 0, 0);
+}

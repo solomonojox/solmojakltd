@@ -1,0 +1,22 @@
+.top-bar {
+ display: flex;
+ margin-top: 0px;
+ border: 2px solid #202020;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ width: 100%;
+ height: 50px;
+}
+.top-bar a{
+ color: #202020;
+}
+.top-bar img {
+ width: 25px;
+}
+table{
+ width: 400px;
+ margin-left: 850px;
+ text-align: center;
+ padding: 15px;
+}
