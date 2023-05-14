@@ -36,7 +36,7 @@ section .card .image img{
  width: 300px;
 }
 
-.card::before{
+.card::before {
  content: "";
  position: absolute;
  height: 40%;
