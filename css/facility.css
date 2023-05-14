@@ -1,28 +1,32 @@
 .intro-cover {
- width: 1200px;
- height: 500px;
- background-image: url(/images/facility-cover.jpg);
- background-position: center;
- background-size: cover;
- margin-bottom: 50px;
+  width: 1200px;
+  height: 500px;
+  background-image: url(/images/facility-cover.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
 }
+
 /* cover */
 .intro-cover h1 {
- text-align: center;
- font-size: 60px;
- margin-top: 200px;
- color: #FFFFFF;
- background-color: #1257DC;
- height: 110px;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 200px;
+  color: #FFFFFF;
+  background-color: #1257DC;
+  height: 110px;
 }
-.intro-text{
+
+.intro-text {
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 100px;
 }
-.intro-text p{
+
+.intro-text p {
   text-align: justify;
 }
+
 /* line */
 hr {
   height: 2px;
@@ -30,15 +34,18 @@ hr {
   margin-top: -80px;
   background-color: black;
 }
+
 /* header */
 .header {
   text-align: center;
 }
-.header p{
+
+.header p {
   color: black;
   font-size: 20px;
 }
-.header h1{
+
+.header h1 {
   font-size: 60px;
 }
 
@@ -54,7 +61,7 @@ hr {
 }
 
 /* feature */
-.gallery h4{
+.gallery h4 {
   text-align: center;
   font-size: 16px;
   margin-top: 20px;
@@ -62,16 +69,18 @@ hr {
   color: #666666;
 }
 
-.main-container{
+.main-container {
   background-color: #ecf1f6;
 }
-.main-container h1{
+
+.main-container h1 {
   font-size: 30px;
   margin-top: 20px;
 }
- .main-container .descri {
+
+.main-container .descri {
   font-size: 18px;
- }
+}
 
 .gallery {
   display: flex;
@@ -83,7 +92,7 @@ hr {
   margin: 10px 0;
 }
 
-.contenter{
+.contenter {
   width: 20%;
   height: 400px;
   margin: 15px;
@@ -96,12 +105,12 @@ hr {
   background: white;
 }
 
-.contenter:hover{
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+.contenter:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transform: translate(0px, -8px);
 }
 
-.gallery img{
+.gallery img {
   margin-top: 500px;
   margin-bottom: 500px;
   width: 40px;
@@ -111,7 +120,7 @@ hr {
   display: block;
 }
 
-.contenter .tell-it{
+.contenter .tell-it {
   text-align: center;
   padding: 0 15px;
   line-height: 25px;
@@ -123,7 +132,7 @@ hr {
 
 
 /* service */
-.service{
+.service {
   display: grid;
   display: flex;
   grid-template-columns: repeat(2, 1fr);
@@ -133,14 +142,16 @@ hr {
   margin-bottom: 25px;
   grid-gap: 100px;
 }
+
 .wrap1 p {
   font-size: 20px;
 }
 
-  /* img and text */
+/* img and text */
 img {
   width: 400px;
 }
+
 .text {
   text-align: justify;
 }

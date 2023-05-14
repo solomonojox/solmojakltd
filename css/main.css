@@ -104,6 +104,8 @@ body {
 .content .sm{
   font-size: 24px;
   color: #383f47;
+  margin: 40px;
+  margin-left: 0px;
 }
 /* end of intro slider */
 
