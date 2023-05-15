@@ -5,14 +5,14 @@
 }
 /* headings */
 h1,h2 {
- color: #262626;
+ color: #383f47;
 }
 h5 {
- color: #383838;
+ color: #383f47;
 }
 /* paragraph */
 p{
- color: #1d1d1d;
+ color: #383f47;
 }
 
 html{
@@ -177,12 +177,12 @@ a {
 .title{
   font-size: 18px;
   font-weight: 500;
-  color: #333
+  color: #383f47
 }
 
 .describeit{
   font-size: 14px;
-  color: #707070;
+  color: #383f47;
   text-align: center;
 }
 
