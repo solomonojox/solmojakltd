@@ -16,6 +16,8 @@ h1{
 label{
  display: block;
  margin: 20px 0;
+ color: white;
+ font-size: 18px;
 }
 
 input, textarea{
