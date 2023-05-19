@@ -3,63 +3,54 @@
  padding: 0;
 }
 
-.shadow {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  margin-bottom: 20px;
+ul{
+  list-style: none;
 }
 
-.shadow img{
-  width: 200px;
+.shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+.shadow .logo{
+  max-width: 200px;
+  width: auto;
   margin-top: 5px;
   margin-left: 0px;
 }
 
-ul {
-text-align: center;
-display: inline-flex;
-justify-content: space-around;
+.nav-links {
+  display: flex;
+  align-items: center;
 }
 
-ul li {
-list-style: none;
- line-height: 50px;
+.nav-links li {
+  margin: 0 30px;
+  line-height: 50px;
 }
-
-ul li a {
- display: block;
+.nav-links a {
+  text-decoration: none;
+  display: block;
   font-weight: bold;
   text-decoration: none;
   font-size: 14px;
   color: #383f47;
-  padding: 0 30px;
+  padding: 0 15px;
 }
- 
+
 ul li a:hover {
  color: #ffffff;
  background: #1257DC;
  border-radius: 4px;
-}
-nav {
- margin: auto;
- text-align: center;
- background-color: white;
- width: 100%;
- margin-top: 0px;
- position: static;
+ transition: all 0.3s ease;
 }
 
-/* 
-nav div {
- position: absolute; top: 15px; left: 20px;
-}  */
-
-/* nav shadow *
-.shadow {
- position: fixed;
- box-shadow: 0 0.5px 6px rgba(0,0,0,0.5), 0 0 0 rgba(0,0,0,0.5) inset;
-} */
 
 .fa {
  margin-right: 8px;
@@ -95,4 +86,54 @@ ul li:hover .sub-menu-1 ul li {
 
 ul li:hover .sub-menu-1 ul li:last-child {
  border-bottom: none;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+  background-color: #383f47;
+}
+
+/* Mobile device */
+@media only screen and (max-width:1300px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: #383f47;
+    margin-top: -900px;
+    transition: all 0.5s ease;
+  }
+
+    .nav-links a{
+      color: #ffffff;
+    }
+
+  .mobile-menu {
+    margin-top: 0px;
+    border-bottom-right-radius: 30%;
+  }
+
+  .nav-links li {
+    margin: 1px auto;
+  }
 }

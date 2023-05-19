@@ -1,16 +1,18 @@
 .header-title{
- height: 200px;
- width: 100%;
- background-color: #1257d1;
- text-align: center;
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  background-color: #1257d1;
+  text-align: center;
 }
 .header-title h1{
  color: white;
  margin-top: 60px;
- font-size: 50px;
+ font-size: 8vmin;
 }
 .header-title p{
  color: white;
+font-size: 4vmin;
 }
 
 /* Details */
@@ -20,7 +22,8 @@
  width: 100%;
  justify-content: center;
  align-items: center;
- margin: 50px 0;
+ float: left;
+ margin: 20px 0;
 }
 
 .header-content {
@@ -35,23 +38,32 @@
 }
 
 .headerWrapper img {
- width: 500px;
- height: 50%;
+ max-width: 500px;
+ width: 100%;
+ height: auto;
  text-align: center;
  margin: 0 auto;
  display: block;
 }
 
 .header-content .text{
- margin-top: -200px;
+ margin-top: auto;
  line-height: 25px;
+font-size: 3vmin;
+min-width: 300px;
 }
 
 .header-content .sm{
-  color: #383f47;
+  color: #ffffff;
   font-size: 20px;
   margin: 20px;
   margin-left: 0px;
+}
+
+.socialButtons{
+  background-color: #1257d1;
+  padding: 20px;
+  text-align: center;
 }
 
 /* line */
@@ -59,39 +71,4 @@ hr {
  height: 2px;
  width: 450px;
  background-color: #1257d1;
-}
-
-
-
-/* details 2 */
-.details {
- display: grid;
- display: flex;
- grid-template-columns: repeat(2, 1fr);
- margin-left: 80px;
- margin-right: 180px;
-}
-.details img{
- margin-top: 20px;
-}
-.details p{
- text-align: justify;
- margin-top: 80px;
- margin-left: 80px;
- line-height: 25px;
-}
-
-.social{
- margin-bottom: 50px;
-}
-.social img{
- width: 25px;
-}
-
-table {
- width: 400px;
- margin-left: 215px;
- margin-top: -50px;
- text-align: center;
- padding: 15px;
 }

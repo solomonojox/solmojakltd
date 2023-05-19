@@ -40,6 +40,7 @@ body {
   overflow-x: hidden;
   padding: 0rem 0rem;
   background: #ffffff;
+  margin-top: 100px;
 }
 
 .row .imgWrapper {
@@ -204,7 +205,8 @@ a {
 
 /* hire us */
 .hire p{
-  font-size: 25px;
+  font-size: 4vmin;
+  text-align: center;
 }
 
 /* social icons */

@@ -21,9 +21,9 @@
     <!-- nav bar -->
     <nav class="shadow">
         <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
         </div>
-        <ul>
+        <ul class="nav-links">
             <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
             <li><a href="facility.html"><i class="fa fa-cogs"></i>Facility Services</a></li>
             <li><a href="hse.html"><i class="fa fa-heartbeat"></i>HSE</a></li>
@@ -40,6 +40,7 @@
             <li><a href="about.html"><i class="fa fa-user"></i>About</a></li>
             <li><a href="our-team.html"><i class="fa fa-users"></i>Our Team</a></li>
         </ul>
+        <img src="images/menu-btn.png" alt="" class="menu-btn">
     </nav>
     <!-- end of nav bar -->
     <!-- intro slider -->
@@ -361,6 +362,15 @@
         </footer>
     </div>
     <!-- end footer -->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
 
 </html>

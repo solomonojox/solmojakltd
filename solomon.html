@@ -15,21 +15,11 @@
  <!-- nav bar -->
  <nav class="shadow">
   <div class="logo">
-   <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+   <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
   </div>
-  <ul>
+  <ul class="nav-links">
    <li><a href="index.html"><i class="fa fa-home"></i>Home</a>
-   <li><a href="facility.html"><i class="fa fa-cogs"></i>Facility Services</a>
-    <div class="sub-menu-1">
-     <ul>
-      <li><a href="#"><i class="fa fa-bath"></i>Cleaning services</a></li>
-      <li><a href="#"><i class="fa fa-shield"></i>Security services</a></li>
-      <li><a href="#"><i class="fa fa-wrench"></i>Power management</a></li>
-      <li><a href="#"><i class="fa fa-paint-brush"></i>Renovation</a></li>
-      <li><a href="#"><i class="fa fa-dot-circle"></i>Plumbing</a></li>
-     </ul>
-    </div>
-   </li>
+   <li><a href="facility.html"><i class="fa fa-cogs"></i>Facility Services</a></li>
    <li><a href="hse.html"><i class="fa fa-heartbeat"></i>HSE</a></li>
    <li><a href="#"><i class="fa fa-code-fork"></i>Tech Services</a>
     <div class="sub-menu-1">
@@ -44,6 +34,7 @@
    <li><a href="about.html"><i class="fa fa-user"></i>About</a></li>
    <li><a href="our-team.html"><i class="fa fa-users"></i>Our Team</a></li>
   </ul>
+<img src="images/menu-btn.png" alt="" class="menu-btn">
  </nav>
  <!-- end of nav bar -->
  <!-- header title -->
@@ -59,7 +50,7 @@
    <div class="header-content">
       <p class="text">Solomon Akpa is the Director General and CEO at Solmojak Limited. He is a graduate of Federal University of Agriculture
       (now Joseph Sarwuan Tarka University), Makurdi. He specializes in Facility management, Quality Health Safety Environment
-      and Sustainability, and has demonstrated history of working in the consulting industry. He is a QHSES Academy, British
+      and Sustainability, and has demonstrated history of working in the consulting industry. He is a British
       International Safety Organization trained Safety Professional.
       <br><br>
       He is a member of the Nigeria Society of Engineers(GMNSE), member of the International Association of Engineers(IAE).
@@ -67,11 +58,13 @@
       <br><br>
       <hr>
       <br>
-      <a class="sm" href="mailto:solmojakltd" target="_blank"><i class="fa fa-envelope"></i>solomon@solmojakltd.com</a>
-      <a class="sm" href="https://linkedin.com/in/solomonakpas" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a class="sm" href="https://instagram.com/solomonakpas" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a class="sm" href="https://twitter.com/solomonakpas" target="_blank"><i class="fab fa-twitter"></i></a>
-      <a class="sm" href="https://facebook.com/solomon.akpa" target="_blank"><i class="fab fa-facebook"></i></a>
+      <div class="socialButtons">
+         <a class="sm" href="mailto:solmojakltd" target="_blank"><i class="fa fa-envelope"></i>solomon@solmojakltd.com</a>
+         <a class="sm" href="https://linkedin.com/in/solomonakpas" target="_blank"><i class="fab fa-linkedin"></i></a>
+         <a class="sm" href="https://instagram.com/solomonakpas" target="_blank"><i class="fab fa-instagram"></i></a>
+         <a class="sm" href="https://twitter.com/solomonakpas" target="_blank"><i class="fab fa-twitter"></i></a>
+         <a class="sm" href="https://facebook.com/solomon.akpa" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
    </div>
  </div>
 
@@ -99,5 +92,14 @@
   </footer>
  </div>
  <!-- end of footer -->
+
+ <script>
+   const menuBtn = document.querySelector('.menu-btn')
+   const navlinks = document.querySelector('.nav-links')
+
+   menuBtn.addEventListener('click', () => {
+      navlinks.classList.toggle('mobile-menu')
+   })
+</script>
 </body>
 </html>
