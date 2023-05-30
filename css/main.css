@@ -232,7 +232,7 @@ form{
   .nav-links {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 92vh;
     justify-content: center;
     background: #383f47;
     margin-top: -900px;
@@ -245,8 +245,6 @@ form{
 
   .mobile-menu {
     margin-top: 0px;
-    border-bottom-right-radius: 30%;
-      border-bottom-left-radius: 30%;
   }
 
   .nav-links li {
@@ -257,5 +255,13 @@ form{
     body,
     html {
       overflow-x: hidden;
+    }
+
+    .footer{
+      height: 400px;
+    }
+    .footer .contact{
+      display: flex;
+      flex-direction: column;
     }
 }
