@@ -1,55 +1,74 @@
 .header-title{
- height: 200px;
- width: 100%;
- background-color: #1257d1;
- text-align: center;
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  background-color: #1257d1;
+  text-align: center;
 }
 .header-title h1{
  color: white;
  margin-top: 60px;
- font-size: 50px;
+ font-size: 8vmin;
 }
 .header-title p{
  color: white;
+font-size: 4vmin;
 }
 
-/* details */
-.details {
- display: grid;
+/* Details */
+.headerWrapper {
  display: flex;
- grid-template-columns: repeat(2, 1fr);
- margin-left: 80px;
- margin-right: 180px;
+ flex-wrap: wrap;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ float: left;
+ margin: 20px 0;
 }
-.details img{
- margin-top: 20px;
-}
-.details p{
+
+.header-content {
+ width: 40%;
+ margin: 15px;
+ box-sizing: border-box;
+ float: left;
  text-align: justify;
- margin-top: 80px;
- margin-left: 80px;
- line-height: 25px;
+ border-radius: 20px;
+ padding-top: 10px;
+ transition: .4s;
 }
 
-.social{
- margin-bottom: 50px;
-}
-.social img{
- width: 25px;
-}
-
-table {
- width: 400px;
- margin-left: 215px;
- margin-top: -50px;
+.headerWrapper img {
+ max-width: 500px;
+ width: 100%;
+ height: auto;
  text-align: center;
- padding: 15px;
+ margin: 0 auto;
+ display: block;
 }
 
-hr{
- height:2px;
+.header-content .text{
+ margin-top: auto;
+ line-height: 25px;
+font-size: 3vmin;
+min-width: 300px;
+}
+
+.header-content .sm{
+  color: #ffffff;
+  font-size: 20px;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.socialButtons{
+  background-color: #1257d1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* line */
+hr {
+ height: 2px;
  width: 450px;
  background-color: #1257d1;
- margin-top: -130px;
- margin-left: 320px;
 }

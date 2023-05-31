@@ -1,9 +1,10 @@
 section{
  position: relative;
  height: 70vh;
- width: 1075px;
+ width: 100%;
  display: flex;
  align-items: center;
+ justify-content: center;
  background: #ebebeb;
 }
 
@@ -36,7 +37,7 @@ section .card .image img{
  width: 300px;
 }
 
-.card::before{
+.card::before {
  content: "";
  position: absolute;
  height: 40%;

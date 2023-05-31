@@ -1,28 +1,33 @@
 .intro-cover {
- width: 1200px;
- height: 500px;
- background-image: url(/images/facility-cover.jpg);
- background-position: center;
- background-size: cover;
- margin-bottom: 50px;
+  width: 1200px;
+  height: 500px;
+  background-image: url(/images/facility-cover.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
+/* cover */
 .intro-cover h1 {
- text-align: center;
- font-size: 60px;
- margin-top: 200px;
- color: #FFFFFF;
- background-color: #1257DC;
- height: 110px;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 200px;
+  color: #FFFFFF;
+  background-color: #1257DC;
+  height: 110px;
 }
-.intro-text{
+
+.intro-text {
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 100px;
 }
-.intro-text p{
+
+.intro-text p {
   text-align: justify;
 }
+
 /* line */
 hr {
   height: 2px;
@@ -30,15 +35,18 @@ hr {
   margin-top: -80px;
   background-color: black;
 }
+
 /* header */
 .header {
   text-align: center;
 }
-.header p{
+
+.header p {
   color: black;
   font-size: 20px;
 }
-.header h1{
+
+.header h1 {
   font-size: 60px;
 }
 
@@ -52,7 +60,80 @@ hr {
   background-color: white;
   box-shadow: 2px 5px 20px #1257DC;
 }
-.service{
+
+/* feature */
+.gallery h4 {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: #666666;
+}
+
+.main-container {
+  background-color: #ecf1f6;
+}
+
+.main-container h1 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.main-container .descri {
+  font-size: 18px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contenter {
+  width: 20%;
+  height: 400px;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 30px;
+  transition: .4s;
+  background: white;
+}
+
+.contenter:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+
+.gallery img {
+  margin-top: 500px;
+  margin-bottom: 500px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.contenter .tell-it {
+  text-align: center;
+  padding: 0 15px;
+  line-height: 25px;
+  margin-top: 15px;
+  color: #666666;
+}
+
+
+
+
+/* service */
+.service {
   display: grid;
   display: flex;
   grid-template-columns: repeat(2, 1fr);
@@ -62,14 +143,16 @@ hr {
   margin-bottom: 25px;
   grid-gap: 100px;
 }
+
 .wrap1 p {
   font-size: 20px;
 }
 
-  /* img and text */
+/* img and text */
 img {
   width: 400px;
 }
+
 .text {
   text-align: justify;
 }
