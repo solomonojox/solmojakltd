@@ -23,7 +23,7 @@ body {
 
 header {
   width: 100%;
-  height: 96vh;
+  height: 98vh;
   background: rgba(0,0,0,0.5) url(/images/slider.gif);
   background-blend-mode: darken;
   background-position: bottom;
@@ -39,7 +39,7 @@ header {
   text-align: center;
 }
 .textWrapper{
-  font-size: 3vmin;
+  font-size: 4vmin;
 }
 .header-content h2 {
   font-size: 8vmin;
@@ -212,7 +212,7 @@ form{
 }
 
 /* Mobile device */
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width:950px) {
   .menu-btn {
     display: block;
     background-color: #ff6000;
@@ -261,8 +261,31 @@ form{
     header{
       margin-top: 50px;
     }
+    /* footer */
     .footer .contact{
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
+    .footer .contact-details{
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .footer .quick-link{
+      margin-bottom: 15px;
+      border-top: solid 1px white;
+      border-bottom: solid 1px white;
+      padding: 5px 100%;
+      text-align: center;
+    }
+    .footer .follow-us{
+      text-align: center;
+    }
+
+    /* Facility */
+    .gallery{
+      display: flex;
+      flex-direction: column;
+    }
+    
 }
