@@ -215,6 +215,7 @@ form{
 @media only screen and (max-width:1300px) {
   .menu-btn {
     display: block;
+    background-color: #ff6000;
   }
   body{
     overflow-y: hidden;
@@ -227,6 +228,8 @@ form{
     position: absolute;
     top: 15px;
     left: 10px;
+    background-color: #ffffff;
+    padding: 10px;
   }
 
   .nav-links {
@@ -257,9 +260,6 @@ form{
       overflow-x: hidden;
     }
 
-    .footer{
-      height: 400px;
-    }
     .footer .contact{
       display: flex;
       flex-direction: column;
