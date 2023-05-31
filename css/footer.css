@@ -1,15 +1,10 @@
 /* footer */
-.footer{
- background-color: #383f47;
-}
-.contact {
- display: flex;
- float: left;
- max-width: 100%;
- width: auto;
- justify-content: space-around;
- padding: 10px;
- margin: 0 px;
+.footer .contact {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 10px;
+ margin-top: 10px;
+ grid-area: auto;
 }
 
 .footer {

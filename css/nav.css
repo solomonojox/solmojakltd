@@ -12,10 +12,9 @@ ul{
   top: 0;
   left: 0;
   display: flex;
-  width: 100%;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: rgb(255,255,255);
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .shadow .logo{
