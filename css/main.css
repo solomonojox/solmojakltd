@@ -231,8 +231,7 @@ form{
 
   .nav-links {
     flex-direction: column;
-    width: 50%;
-    margin-left: 200px;
+    width: 100%;
     height: 60vh;
     justify-content: center;
     background: rgb(221, 221, 221);
@@ -275,7 +274,7 @@ form{
       margin-bottom: 15px;
       border-top: solid 1px white;
       border-bottom: solid 1px white;
-      padding: 5px 100%;
+      padding: 5px 150px;
       text-align: center;
     }
     .footer .follow-us{
@@ -288,4 +287,13 @@ form{
       flex-direction: column;
     }
     
+    /* QHSES */
+    .service{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .service .pic{
+      width: 250px;
+    }
 }

@@ -27,11 +27,11 @@
 .footer a {
  text-decoration: none;
  color: #8f8f8f;
- font-weight: bold;
 }
 
 .sm {
  font-size: 25px;
+ margin: 0 5px auto;
 }
 .sm i{
  color: white;
@@ -41,4 +41,9 @@
  display: flex;
  flex-direction: column;
  text-align: left;
+}
+.follow-us{
+   display: flex;
+   flex-direction: column;
+   align-items: first center;
 }
