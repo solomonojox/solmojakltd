@@ -1,8 +1,8 @@
 /* cover */
 .intro-cover {
   width: 100%;
-  height: 88vh;
-  background: rgba(0, 0, 0, 0.5) url(/images/fm.jpg);
+  height: 60vh;
+  background: rgba(0, 0, 0, 0.5) url(/images/fm.gif);
   background-blend-mode: darken;
   display: flex;
   flex-direction: column;
