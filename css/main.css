@@ -177,10 +177,26 @@ header {
   background: #3560d6;
 }
 
+/* Counter */
+.counter{
+  background-color: #ffffff;
+}
+.counter .sects{
+  margin: 50px;
+}
+.counter .sects h1{
+  color: #ff6000;
+  font-size: 50px;
+}
+.counter .sects p{
+  color: #383f47;
+}
+
 /* hire us */
 .hire p{
   font-size: 4vmin;
   text-align: center;
+  color: #383f47;
 }
 
 /* form */
@@ -260,6 +276,14 @@ form{
     header{
       margin-top: 50px;
     }
+
+    /* counter */
+        .counter {
+          display: flex;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          margin: auto;
+        }
     /* footer */
     .footer .contact{
       display: flex;
@@ -274,7 +298,7 @@ form{
       margin-bottom: 15px;
       border-top: solid 1px white;
       border-bottom: solid 1px white;
-      padding: 5px 150px;
+      padding: 5px 50px;
       text-align: center;
     }
     .footer .follow-us{
