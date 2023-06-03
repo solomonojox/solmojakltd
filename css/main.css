@@ -310,7 +310,12 @@ form{
     display: flex;
     display: grid;
     flex-direction: column;
-    
+  }
+  .contain-profile .profile .myima{
+    width: 300px;
+  }
+  .profile .name-info{
+    width: 300px;
   }
   
   /* about */
