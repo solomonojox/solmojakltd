@@ -301,10 +301,16 @@ form{
   }
   
   /* our team */
+  .teamImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .contain-profile{
     display: flex;
     display: grid;
     flex-direction: column;
+    
   }
   
   /* about */
