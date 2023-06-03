@@ -41,11 +41,12 @@
 .header #title {
   font-size: 8vmin;
   color: #1257DC;
+  margin-top: 30px;
 }
 .main-container .descri {
   font-size: 18px;
   margin-top: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* services */
