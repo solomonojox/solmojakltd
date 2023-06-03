@@ -12,9 +12,11 @@
 .box h1 {
  font-size: 8vmin;
  color: #FFFFFF;
+ text-align: center;
 }
 .box p{
  color: white;
+ text-align: center;
 }
 
 /* Profile */
@@ -32,14 +34,14 @@
  align-items: center;
 }
 .teamImg .profile img{
- width: 400px;
+ width: 350px;
 }
 .name-info{
  display: flex;
  flex-direction: column;
  align-items: center;
  background-color: #1257DC;
- width: 400px;
+ width: 350px;
  margin-top: -10px;
  padding: 15px;
 }
