@@ -2,7 +2,7 @@
 .intro-grid {
  display: flex;
  gap: 50px;
- margin: 100px 50px 50px 50px;
+ margin: 100px 15px 50px 15px;
  background: white;
  height: auto;
 }
@@ -18,7 +18,7 @@
 }
 .intro-text p {
  line-height: 25px;
- font-size: 3vmin:
+ font-size: 3vmin;
 }
 
 /* Our values */
