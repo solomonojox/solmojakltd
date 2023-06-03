@@ -42,8 +42,10 @@
   font-size: 8vmin;
   color: #1257DC;
 }
-.header p {
-  font-size: 20px;
+.main-container .descri {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 /* services */
@@ -76,15 +78,6 @@
   margin-top: 20px;
   padding-top: 10px;
   color: #666666;
-}
-
-.main-container h1 {
-  font-size: 30px;
-  margin-top: 20px;
-}
-
-.main-container .descri {
-  font-size: 18px;
 }
 
 .contenter:hover {
