@@ -1,71 +1,57 @@
 /* about */
-.intro {
- padding-left: 50px;
- padding-right: 50px;
- margin-top: 100px;
-}
-
-.intro .intro-grid {
- display: grid;
- grid-template-columns: repeat(2, 1fr);
- grid-gap: 50px;
+.intro-grid {
+ display: flex;
+ gap: 50px;
+ margin: 100px 50px 50px 50px;
  background: white;
  height: auto;
- margin-top: 30px;
- grid-area: auto;
 }
 
 .intro-text {
  text-align: justify;
- margin-top: 0%;
 }
 
 .intro-text h1 {
  text-transform: uppercase;
  text-align: center;
+ color: #1257DC;
 }
-
 .intro-text p {
  line-height: 25px;
-}
-
-/* line */
-hr {
- margin-top: 100px;
+ font-size: 3vmin:
 }
 
 /* Our values */
 .values {
- margin-top: 100px;
- margin-left: 50px;
- margin-right: 50px;
- margin-bottom: 100px;
+ display: flex;
+ flex-direction: column;
+ margin: 50px auto;
 }
-
-.values h1,
-h2 {
+.values h1{
  text-align: center;
+ color: #1257DC;
 }
-
-.values p {
- color: #1d1d1d;
+.grid-values{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.grid-values .indi-values{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 40px;
+ justify-content: center;
+}
+.grid-values .indi-values h2{
+ font-size: 5vmin;
+ color: #383f47;
+}
+.grid-values .indi-values p{
+ font-size: 3vmin;
  text-align: center;
- font-size: 18px;
+ color: #383f47;
 }
-
-.image-values {
- margin-left: 120px;
-}
-
-.values .grid-values {
- display: grid;
- grid-template-columns: repeat(3, 1fr);
- grid-gap: 50px;
- background: white;
- height: 50vh;
- margin-top: 30px;
-}
-
-.image-values img {
- width: 150px;
+.grid-values img{
+ width: 200px;
 }

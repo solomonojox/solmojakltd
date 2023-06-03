@@ -284,6 +284,24 @@ form{
           grid-template-columns: repeat(2, 1fr);
           margin: auto;
         }
+        
+        /* about */
+        .intro-grid{
+          display: flex;
+          flex-direction: column;
+        }
+        .intro-grid .intro-image img{
+          display: none;
+        }
+        .values{
+          display: flex;
+          flex-direction: column;
+        }
+        .grid-values{
+          display: flex;
+          flex-direction: column;
+        }
+
     /* footer */
     .footer .contact{
       display: flex;
