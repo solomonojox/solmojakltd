@@ -317,6 +317,10 @@ form{
   .profile .name-info{
     width: 300px;
   }
+  /* profile */
+  .image-description-wrapper .header-image img{
+    width: 300px;
+  }
   
   /* about */
   .intro-grid{
