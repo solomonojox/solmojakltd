@@ -21,7 +21,7 @@ font-size: 4vmin;
 .image-description-wrapper{
   display: flex;
   margin: 50px 15px 50px 15px;
-  gap: 50px;
+  gap: 10px;
 }
 .header-image img {
   width: 400px;
@@ -51,6 +51,6 @@ font-size: 4vmin;
   color: #ffffff;
 }
 hr{
-  width: 400px;
+  width: 250px;
   color: #383f47;
 }
