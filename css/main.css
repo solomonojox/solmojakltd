@@ -239,12 +239,10 @@ form{
   .navbar {
     padding: 0;
   }
-
   .logo {
     position: absolute;
     top: 2px;
   }
-
   .nav-links {
     flex-direction: column;
     width: 100%;
@@ -254,88 +252,100 @@ form{
     margin-top: -900px;
     transition: all 0.5s ease;
   }
-
   .nav-links a {
     color: #383f47;
   }
-
   .mobile-menu {
     margin-top: 0px;
   }
-
   .nav-links li {
     margin: 0px auto;
   }
   
-    /* body,html */
-    body,
-    html {
-      overflow-x: hidden;
-    }
+  /* body,html */
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  header{
+    margin-top: 50px;
+  }
+  .section2 .containit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* counter */
+  .counter {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+  }
+  /* Facility */
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* QHSES */
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service .pic {
+    width: 250px;
+  }
+  
+  /* our team */
+  .contain-profile{
+    display: flex;
+    display: grid;
+    flex-direction: column;
+  }
+  
+  /* about */
+  .intro-grid{
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-grid .intro-image img{
+    display: none;
+  }
+  .values{
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-values{
+    display: flex;
+    flex-direction: column;
+  }
 
-    header{
-      margin-top: 50px;
-    }
 
-    /* counter */
-        .counter {
-          display: flex;
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          margin: auto;
-        }
-        
-        /* about */
-        .intro-grid{
-          display: flex;
-          flex-direction: column;
-        }
-        .intro-grid .intro-image img{
-          display: none;
-        }
-        .values{
-          display: flex;
-          flex-direction: column;
-        }
-        .grid-values{
-          display: flex;
-          flex-direction: column;
-        }
-
-    /* footer */
-    .footer .contact{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .footer .contact-details{
-      text-align: center;
-      margin-bottom: 15px;
-    }
-    .footer .quick-link{
-      margin-bottom: 15px;
-      border-top: solid 1px white;
-      border-bottom: solid 1px white;
-      padding: 5px 50px;
-      text-align: center;
-    }
-    .footer .follow-us{
-      text-align: center;
-    }
-
-    /* Facility */
-    .gallery{
-      display: flex;
-      flex-direction: column;
-    }
+  /* footer */
+  .footer .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
     
-    /* QHSES */
-    .service{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .service .pic{
-      width: 250px;
-    }
+  .footer .contact-details {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+    
+  .footer .quick-link {
+    margin-bottom: 15px;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    padding: 5px 50px;
+    text-align: center;
+  }
+    
+  .footer .follow-us {
+    text-align: center;
+  }
 }
