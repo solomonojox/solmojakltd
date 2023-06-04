@@ -39,8 +39,8 @@ font-size: 4vmin;
 .socialButtons{
   display: flex;
   background-color: #1257d1;
-  width: 400px;
-  height: 60px;
+  width: 500px;
+  height: 80px;
   align-items: center;
   justify-content: center;
   padding: 15px;
@@ -49,6 +49,9 @@ font-size: 4vmin;
   text-decoration: none;
   font-size: 18px;
   color: #ffffff;
+}
+.socialButtons .media i{
+  margin: 0 10px;
 }
 hr{
   width: 250px;

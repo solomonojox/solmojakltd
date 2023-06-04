@@ -322,10 +322,13 @@ form{
     width: 300px;
   }
   .socialButtons{
-    width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .header-text p{
-    width: 300px;
+    width: auto;
   }
   
   /* about */
