@@ -94,10 +94,15 @@ header {
 .section2{
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
   width: 100%;
   padding: 40px 0;
   background-color: #1257DC;
+  align-items: center;
+  justify-content: center;
+}
+.section2 .containit {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -175,21 +180,6 @@ header {
 
 .viewmore:hover{
   background: #3560d6;
-}
-
-/* Counter */
-.counter{
-  background-color: #ffffff;
-}
-.counter .sects{
-  margin: 50px;
-}
-.counter .sects h1{
-  color: #ff6000;
-  font-size: 50px;
-}
-.counter .sects p{
-  color: #383f47;
 }
 
 /* hire us */
