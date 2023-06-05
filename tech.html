@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Tech Services</title>
+   <link rel="stylesheet" href="css/nav.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/tech.css">
+   <link rel="stylesheet" href="css/top-bar.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <!-- nav bar -->
+ <nav class="shadow">
+  <div class="logo">
+   <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+  </div>
+  <ul class="nav-links">
+   <li><a href="index.html">Home</a></li>
+   <li><a href="facility.html">Facility Services</a></li>
+   <li><a href="hse.html"></i>QHSES</a></li>
+   <li><a href="tech.html">Tech Services</a>
+    <!-- sub-menu 
+         <div class="sub-menu-1">
+           <ul>
+             <li><a href="#"><i class="fa fa-code"></i>Web Development</a></li>
+             <li><a href="#"><i class="fa fa-mobile"></i>Ui/Ux</a></li>
+             <li><a href="branding.html"><i class="fa fa-pencil"></i>Graphic design/Branding</a></li>
+             <li><a href="#"><i class="fa fa-share-square"></i>Social media management</a></li>
+           </ul>
+         </div>-->
+   </li>
+   <li><a href="about.html">About</a></li>
+   <li><a href="our-team.html">Our Team</a></li>
+  </ul>
+  <img src="images/menu-btn.png" alt="" class="menu-btn">
+ </nav>
+
+  <div class="intro-cover">
+   <h1>Tech Services</h1>
+   <div class="line"></div>
+  </div>
+   <!-- begin footer -->
+   <div class="footer">
+    <div class="contact">
+     <div class="contact-details">
+      <h4>Contact details</h4>
+      <p><a href="http://wa.me/2348158194393" target="_blank"><i class="fa fa-phone"></i>08158194393</a></p>
+      <p><i class="fa fa-mobile"></i>08102809730</p>
+      <p><i class="fa fa-map-marker"></i>1, Olowoporoku street, Oshodi, Lagos State Nigeria</p>
+     </div>
+     <div class="quick-link">
+      <h4>Quick link</h4>
+      <p><a href="index.html">Home</a></p>
+      <p><a href="about.html">About</a></p>
+      <p><a href="our-team.html">Our team</a></p>
+     </div>
+     <div class="follow-us">
+      <h4>Follow us</h4>
+      <div class="sm">
+       <a class="sm" href="https://linkedin.com/company/solmojakltd" target="_blank"><i class="fab fa-linkedin"></i></a>
+       <a class="sm" href="https://instagram.com/solmojakltd" target="_blank"><i class="fab fa-instagram"></i></a>
+       <a class="sm" href="https://twitter.com/solmojakltd" target="_blank"><i class="fab fa-twitter"></i></a>
+       <a class="sm" href="https://facebook.com/solmojakltd" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <p style="text-align: center;">&copy; Solmojak Limited. All Rights Reserved. 2021</p>
+   </footer>
+   <!-- end footer -->
+   
+   <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click', () => {
+     navlinks.classList.toggle('mobile-menu')
+    })
+   </script>
+</body>
+</html>

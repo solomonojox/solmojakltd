@@ -116,3 +116,23 @@ img {
 .text {
   text-align: justify;
 }
+
+/* photo gallery */
+.photo-gallery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-gallery h1{
+  color: #1257DC;
+}
+.photo-gallery .line{
+  margin-bottom: 50px;
+}
+.photo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

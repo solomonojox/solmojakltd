@@ -1,0 +1,22 @@
+.intro-cover {
+ width: 100%;
+ height: 60vh;
+ background: rgba(0, 0, 0, 0.5) url(/images/tech-skills.jpg);
+ background-blend-mode: darken;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-position: bottom;
+ background-size: cover;
+ margin-top: 60px;
+ margin-bottom: 50px;
+}
+
+.intro-cover h1 {
+ font-size: 8vmin;
+ text-align: center;
+ color: #FFFFFF;
+ background: rgb(18, 87, 220, 0.5);
+ padding: 20px;
+}
