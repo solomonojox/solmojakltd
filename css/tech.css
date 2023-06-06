@@ -20,3 +20,62 @@
  background: rgb(18, 87, 220, 0.5);
  padding: 20px;
 }
+
+/* services */
+.head-title{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 50px;
+}
+.head-title h3{
+ font-size: 30px;
+ text-align: center;
+ font-weight: 400;
+ width: 400px;
+}
+
+
+.tech-service{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 50px;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 50px;
+ 
+}
+.graphics{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid #1257DC;
+ width: 300px;
+ height: 300px;
+ text-align: center;
+ gap: 10px;
+}
+.graphics h5{
+ font-weight: 400;
+ font-size: 25px;
+}
+.graphics p{
+ color: #383f47;
+}
+.graphics img{
+ width: 100px;
+}
+
+/* portfolio */
+.portfolio{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 50px;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+.portfolio img{
+ width: 350px;
+}
