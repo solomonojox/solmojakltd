@@ -227,7 +227,7 @@ form{
     overflow-y: hidden;
   }
   .navbar {
-    padding: 0;
+    padding: 10px;
   }
   .logo {
     position: absolute;

@@ -67,10 +67,8 @@
   box-sizing: border-box;
   float: left;
   text-align: center;
-  cursor: pointer;
   padding: 30px;
   margin: 15px;
-  transition: .4s;
   background: white;
 }
 .gallery .contenter h4 {
@@ -79,11 +77,6 @@
   margin-top: 20px;
   padding-top: 10px;
   color: #666666;
-}
-
-.contenter:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  transform: translate(0px, -8px);
 }
 
 .gallery img {

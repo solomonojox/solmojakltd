@@ -8,7 +8,7 @@ ul{
 }
 
 .shadow {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -16,6 +16,8 @@ ul{
   justify-content: space-between;
   padding: 10px;
   background-color: rgb(255,255,255);
+  align-items: center;
+  transition: 0.6s;
 }
 
 .shadow .logo{
@@ -41,6 +43,7 @@ ul{
   font-size: 14px;
   color: #383f47;
   padding: 0 15px;
+  float: left;
 }
 
 ul li a:hover {
@@ -85,4 +88,9 @@ ul li:hover .sub-menu-1 ul li {
 
 ul li:hover .sub-menu-1 ul li:last-child {
  border-bottom: none;
+}
+
+nav.sticky{
+  padding: 5px 100px;
+  background: #fff;
 }
