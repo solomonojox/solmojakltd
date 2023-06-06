@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   margin-top: 60px;
-  height: 150px;
+  height: 150px auto;
   width: 100%;
   background-color: #1257d1;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 .header-title h1{
  color: white;

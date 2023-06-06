@@ -2,15 +2,16 @@
 .box{
  background-color: #1257DC;
  width: 100%;
- height: 100px;
+ height: 100px auto;
  margin-top: 60px;
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ padding: 20px;
 }
 .box h1 {
- font-size: 8vmin;
+ font-size: 6vmin;
  color: #FFFFFF;
  text-align: center;
 }
@@ -46,12 +47,14 @@
  padding: 15px;
 }
 .name-info h3{
- font-size: 5vmin;
+ font-size: 4vmin;
  color: #FFFFFF;
  text-decoration: none;
+ text-align: center;
 }
 .name-info h4{
- font-size: 4vmin;
+ font-size: 3.5vmin;
+ text-align: center;
 }
 .name-info a{
  color: #FFFFFF;
