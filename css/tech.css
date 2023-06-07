@@ -68,6 +68,20 @@
 }
 
 /* portfolio */
+.portfolio-title {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin: 50px;
+}
+
+.portfolio-title h3 {
+ font-size: 30px;
+ text-align: center;
+ font-weight: 400;
+ width: 400px;
+}
 .portfolio{
  display: flex;
  flex-wrap: wrap;
