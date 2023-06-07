@@ -89,8 +89,3 @@ ul li:hover .sub-menu-1 ul li {
 ul li:hover .sub-menu-1 ul li:last-child {
  border-bottom: none;
 }
-
-nav.sticky{
-  padding: 5px 100px;
-  background: #fff;
-}
