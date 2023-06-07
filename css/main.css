@@ -218,7 +218,7 @@ form{
 }
 
 /* Mobile device */
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:1100px) {
   .menu-btn {
     display: block;
     background-color: #ff6000;

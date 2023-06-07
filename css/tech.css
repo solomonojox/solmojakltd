@@ -89,7 +89,10 @@
  align-items: center;
  justify-content: center;
  margin-bottom: 50px;
+ background-color: #383f47;
+ padding: 50px;
 }
 .portfolio img{
  width: 350px;
+ border: 2px solid white;
 }
