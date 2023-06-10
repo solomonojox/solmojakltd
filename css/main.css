@@ -8,6 +8,9 @@
 a{
   text-decoration: none;
 }
+body p{
+  font-size: 16px;
+}
 
 html{
 scroll-behavior: smooth;
@@ -39,7 +42,7 @@ header {
   text-align: center;
 }
 .textWrapper{
-  font-size: 5vmin;
+  font-size: 16px;
 }
 .header-content h2 {
   font-size: 8vmin;
@@ -55,7 +58,6 @@ header {
 .header-content .content{
   margin: 10px;
   line-height: 28px;
-  font-size: 18px;
 }
 .header-content .link {
   display: inline-block;
@@ -87,7 +89,6 @@ header {
   font-size: 8vmin;
 }
 .serv{
-  font-size: 5vmin;
   text-align: center;
   color: #383f47;
 }
@@ -184,7 +185,6 @@ header {
 
 /* hire us */
 .hire p{
-  font-size: 4vmin;
   text-align: center;
   color: #383f47;
 }
