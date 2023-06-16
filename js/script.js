@@ -51,7 +51,7 @@ function emailIsValid(email){
  return pattern.test(email);
 }
 
-// getFormValues
+// GetFormValues
 function getFormValues(){
   var formName = document.getElementById("name").value;
   var formEmail = document.getElementById("email").value;
