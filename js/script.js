@@ -30,6 +30,7 @@ function validateForm(){
 
    if(!errorFlag){
     success.innerText = "Success!";
+    getFormValues();
    }
 }
 
@@ -48,4 +49,15 @@ function clearMessages() {
 function emailIsValid(email){
  let pattern = /\S+@\S+\.\S+/;
  return pattern.test(email);
+}
+
+// getFormValues
+function getFormValues(){
+  var formName = document.getElementById("name").value;
+  var formEmail = document.getElementById("email").value;
+  var formMessage = document.getElementById("message").value;
+
+  console.log("Name: "+ formName);
+  console.log("Email: "+ formEmail);
+  console.log("Message: "+ formMessage);
 }
