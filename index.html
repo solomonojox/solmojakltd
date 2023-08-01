@@ -148,6 +148,7 @@
     <div class="line" style="width: 80px;"></div>
     <!-- begin section -->
 
+    <!-- client -->
     <section>
         <div class="swiper mySwiper container">
             <div class="swiper-wrapper content">
@@ -263,9 +264,9 @@
             </div>
         </div>
 
-        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-        <div class="swiper-scrollbar"></div>
+        <div class="swiper-scrollbar"></div> -->
         <div class="swiper-pagination"></div>
     </section>
 
@@ -274,32 +275,44 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 40,
-            centeredSlides: false,
-            slidesPerGroupSkip: 1,
-            grabCursor: true,
-            keyboard: {
-                enabled: true,
-            },
-            breakpoints: {
-                769: {
-                    slidesPerView: 3,
-                    slidesPerGroup: 2,
-                },
-            },
-            scrollbar: {
-                el: ".swiper-scrollbar",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
+            var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      loop:true,
+        // var swiper = new Swiper(".mySwiper", {
+        //     slidesPerView: 1,
+        //     spaceBetween: 40,
+        //     centeredSlides: false,
+        //     slidesPerGroupSkip: 1,
+        //     grabCursor: true,
+        //     keyboard: {
+        //         enabled: true,
+        //     },
+             breakpoints: {
+                 769: {
+                     slidesPerView: 3,
+                     slidesPerGroup: 2,
+                 },
+             },
+        //     scrollbar: {
+        //         el: ".swiper-scrollbar",
+        //     },
+        //     navigation: {
+        //         nextEl: ".swiper-button-next",
+        //         prevEl: ".swiper-button-prev",
+        //     },
+        //     pagination: {
+        //         el: ".swiper-pagination",
+        //         clickable: true,
+        //     },
         });
     </script>
     <!-- end of section -->
