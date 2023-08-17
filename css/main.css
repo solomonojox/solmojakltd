@@ -187,6 +187,7 @@ header {
 .hire p{
   text-align: center;
   color: #383f47;
+  font-weight: 600;
 }
 
 /* form */
