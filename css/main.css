@@ -219,7 +219,7 @@ form{
 }
 
 /* Mobile device */
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width:992px) {
   .menu-btn {
     display: block;
     background-color: #ff6000;
@@ -383,5 +383,20 @@ form{
     
   .footer .follow-us {
     text-align: center;
+  }
+}
+
+@media only screen and (min-width:993px){
+  .nav-links a{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width:2000px){
+  .nav-links a{
+    font-size: 25px;
+  }
+  .nav-links li{
+    margin: 0 50px;
   }
 }
