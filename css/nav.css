@@ -89,3 +89,17 @@ ul li:hover .sub-menu-1 ul li {
 ul li:hover .sub-menu-1 ul li:last-child {
  border-bottom: none;
 }
+
+/* go to top */
+.go-to-top{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 40px;
+  z-index: 9;
+}
+.go-to-top i{
+  color: #ff6000;
+  background-color: white;
+  border-radius: 50%;
+}
