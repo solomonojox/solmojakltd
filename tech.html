@@ -10,9 +10,10 @@
    <link rel="stylesheet" href="css/tech.css">
    <link rel="stylesheet" href="css/top-bar.css">
    <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/select-menu.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
+<body onload="document.querySelector('.tech').classList.add('select-menu-tab');">
  <!-- nav bar -->
  <nav class="shadow">
   <div class="logo">
@@ -22,7 +23,7 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="facility.html">Facility Services</a></li>
     <li><a href="hse.html"></i>QHSES</a></li>
-    <li><a href="tech.html">Tech Services</a>
+    <li><a class="tech" href="tech.html">Tech Services</a>
     <!-- sub-menu 
             <div class="sub-menu-1">
               <ul>
@@ -149,5 +150,6 @@
      navlinks.classList.toggle('mobile-menu')
     })
    </script>
+   <script src="js/nav-bar.js"></script>
 </body>
 </html>

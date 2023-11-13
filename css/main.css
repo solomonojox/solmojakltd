@@ -81,6 +81,10 @@ header {
   color: #ffffff;
   margin: 10px 20px;
 }
+
+.header-content .sm i:hover{
+  color: #ff6000;
+}
 /* end of intro slider */
 
 /* services */

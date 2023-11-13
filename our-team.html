@@ -10,9 +10,10 @@
  <link rel="stylesheet" href="css/team.css">
  <link rel="stylesheet" href="css/top-bar.css">
  <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/select-menu.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
+<body onload="document.querySelector('.team').classList.add('select-menu-tab');">
  <!-- top bar 
  <div class="top-bar">
   <table>
@@ -52,7 +53,7 @@
         </div>-->
       </li>
       <li><a href="about.html">About us</a></li>
-      <li><a href="our-team.html">Our Team</a></li>
+      <li><a class="team" href="our-team.html">Our Team</a></li>
     </ul>
       <img src="images/menu-btn.png" alt="" class="menu-btn">
 </nav>
@@ -171,5 +172,6 @@
     navlinks.classList.toggle('mobile-menu')
   })
 </script>
+<script src="js/nav-bar.js"></script>
 </body>
 </html>

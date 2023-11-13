@@ -10,9 +10,10 @@
  <link rel="stylesheet" href="css/hse.css">
  <link rel="stylesheet" href="css/top-bar.css">
  <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/select-menu.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
+<body onload="document.querySelector('.hse').classList.add('select-menu-tab');">
  <!-- top bar 
  <div class="top-bar">
   <table>
@@ -38,7 +39,7 @@
   <ul class="nav-links">
    <li><a href="index.html">Home</a></li>
    <li><a href="facility.html">Facility Services</a></li>
-   <li><a href="hse.html">QHSES</a></li>
+   <li><a class="hse" href="hse.html">QHSES</a></li>
    <li><a href="tech.html">Tech Services</a>
       <!-- hide 
       <div class="sub-menu-1">
@@ -191,5 +192,6 @@
       navlinks.classList.toggle('mobile-menu')
    })
 </script>
+<script src="css/select-menu.css"></script>
 </body>
 </html>
