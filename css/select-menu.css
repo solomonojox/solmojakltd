@@ -1,5 +1,5 @@
 .select-menu-tab{
   background-color: #1257DC;
-  color: white;
+  color: white !important;
   border-radius: 10px;
 }
