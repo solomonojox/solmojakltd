@@ -35,14 +35,13 @@ ul{
 .nav-links li {
   margin: 0 5px;
   line-height: 50px;
-  color: #383f47;
 }
 .nav-links a {
   text-decoration: none;
   display: block;
   font-weight: bold;
   font-size: 14px;
-  color: #383f47;
+  color: #2c3035;
   padding: 0 15px;
   float: left;
 }
