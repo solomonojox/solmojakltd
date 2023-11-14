@@ -7,6 +7,13 @@ ul{
   list-style: none;
 }
 
+/* navLinks */
+.active{
+  color: white !important;
+  background-color: #1257DC;
+  border-radius: 10px;
+}
+
 .shadow {
   position: fixed;
   top: 0;
@@ -50,7 +57,7 @@ ul li a:hover {
  color: #ffffff;
  background: #1257DC;
  border-radius: 10px;
- transition: all 0.3s ease;
+ transition: all 0.2s ease;
 }
 
 
