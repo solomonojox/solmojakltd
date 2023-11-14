@@ -41,6 +41,9 @@
 .sm i{
  color: white;
 }
+.sm i:hover{
+ color: #ff6000;
+}
 
 .contact-details{
  display: flex;
