@@ -1,3 +1,6 @@
+window.onload = function() {
+  document.getElementById('home').classList.add('active');
+}
 const activePage = window.location.pathname;
 const navLinkEls = document.querySelectorAll('.nav_link');
 
