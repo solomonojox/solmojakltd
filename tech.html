@@ -12,6 +12,9 @@
    <link rel="stylesheet" href="css/footer.css">
    <link rel="stylesheet" href="css/select-menu.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+   <!-- animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 <body>
  <!-- nav bar -->
@@ -79,6 +82,26 @@
     <h1>Portfolio</h1>
   </div>
 
+  <!-- portfolio -->
+  <section class="portfolio-flyer">
+    <div class="the-title">
+      <h3 data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">Ui designs</h3>
+      <div class="line" style="width: 50px;"></div>
+    </div>
+
+    <div class="flyer-images">
+      <img src="images/portfolio/kd1.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/kd2.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/jbuy.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/jbuy2.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/showprime.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/showprime2.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/sjki.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/sjki2.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+    </div>
+  </section>
+  <!-- portfolio end -->
+  
   <div class="portfolio-info">
     <h3>Logo designs</h3>
     <div class="line" style="width: 50px;"></div>
@@ -141,6 +164,13 @@
     <p style="text-align: center;">&copy; Solmojak Limited. All Rights Reserved. 2021</p>
    </footer>
    <!-- end footer -->
+
+   <!-- Java script -->
+     <!-- animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
    
    <script>
     const menuBtn = document.querySelector('.menu-btn')
