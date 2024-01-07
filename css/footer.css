@@ -43,6 +43,7 @@
 }
 .sm i:hover{
  color: #ff6000;
+ transition: all 0.3s ease;
 }
 
 .contact-details{

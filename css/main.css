@@ -84,6 +84,7 @@ header {
 
 .header-content .sm i:hover{
   color: #ff6000;
+  transition: all 0.3s ease;
 }
 /* end of intro slider */
 
