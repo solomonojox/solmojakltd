@@ -1,7 +1,3 @@
-
-// window.onload = function() {
-// }
-
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById('home').classList.add('active');
 

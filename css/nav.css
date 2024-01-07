@@ -97,20 +97,25 @@ ul li:hover .sub-menu-1 ul li:last-child {
  border-bottom: none;
 } */
 
-/* go to top */
-.go-to-top{
+
+/* Goto top */
+#myBtn {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  font-size: 40px;
-  z-index: 9;
-}
-.go-to-top i{
-  color: #ff6000;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+
+  display: none;
+
+  opacity: 100%;
+  cursor: pointer;
   background-color: white;
+  font-size: 40px;
+  color: #ff6000;
   border-radius: 50%;
 }
-.go-to-top{
+
+#myBtn{
   margin-top: 60px;
   width: 40px;
   -webkit-animation: mover 2s infinite alternate;
