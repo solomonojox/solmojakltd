@@ -228,6 +228,7 @@ form{
   .menu-btn {
     display: block;
     background-color: #ff6000;
+    top: 15px;
   }
 
   body{
@@ -243,19 +244,19 @@ form{
     right: 0;
     margin: 0 auto;
     width: 100%;
-    height: 13vh;
+    height: 20vh;
     background: white;
     z-index: -1;
   }
 
   .logo {
     position: absolute;
-    top: 2px;
+    top: 6px;
   }
   .nav-links {
     flex-direction: column;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     justify-content: center;
     background: rgb(255, 255, 255);
     margin-top: -900px;
@@ -265,7 +266,7 @@ form{
     color: #383f47;
   }
   .mobile-menu {
-    margin-top: 0px;
+    margin-top: 20px;
   }
   .nav-links li {
     margin: 0px auto;
